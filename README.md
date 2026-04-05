@@ -11,11 +11,7 @@ It evaluates multiple models (via Ollama) on a Q&A dataset and scores their outp
 - Reads a dataset of **questions + context + expected answers**
 - Sends the same inputs to multiple LLMs
 - Collects model outputs
-- Automatically evaluates responses using:
- - Correctness
- - Grounding
- - Completeness
- - Hallucination detection
+- Automatically evaluates responses using: Correctness, Grounding, Completeness, Hallucination detection
 - Assigns a **failure type** to each response
 
 ---
